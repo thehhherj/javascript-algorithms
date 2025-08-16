@@ -1,4 +1,4 @@
-  fetch("newfile.html")
+fetch("https://raw.githubusercontent.com/thehhherj/javascript-algorithms/thehhherj-patch-1/src/algorithms/linked-list/traversal/newfile.html")
     .then(res => res.text())
     .then(html => {
       const parser = new DOMParser();
